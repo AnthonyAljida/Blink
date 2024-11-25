@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
+    <color name="button_pressed">#001A83</color>
+    <color name="button_not_pressed">#002DE3</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="light">#879FFF</color>
+    <color name="font_active">#0f1828</color>
+    <color name="font_body">#1b2b48</color>
+    <color name="font_weak">#a4a4a4</color>
+    <color name="neutral_background">#F7F7FC</color>
+    <color name="neutral_disabled">#ADB5BD</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

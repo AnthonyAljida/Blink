@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_root"
+    android:background="@color/background"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:id="@+id/splash_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/splash_logo_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/chat_outline"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/splash_app_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mulish"
+            android:text="Blink"
+            android:gravity="center"
+            android:textColor="@color/font_active"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/splash_app_description"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mulish"
+            android:text="Connect easily with your friends and family"
+            android:gravity="center"
+            android:textColor="@color/font_active"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/splash_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/splash_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mulish"
+            android:text="Terms &amp; Privacy Policy"
+            android:gravity="center"
+            android:textColor="@color/font_active"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textFontWeight="500"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/splash_start_messaging"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_not_pressed"
+            android:text="Start Messaging"
+            android:fontFamily="@font/mulish"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:paddingVertical="10dp" />
+    </LinearLayout>
+</RelativeLayout>

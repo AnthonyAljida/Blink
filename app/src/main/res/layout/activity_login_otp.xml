@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_otp_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginOtpActivity">
+
+    <LinearLayout
+        android:id="@+id/login_otp_center_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/login_otp_phone_number_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mulish"
+            android:text="Enter Code"
+            android:gravity="center"
+            android:textColor="@color/font_active"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/login_otp_confirm_phone_number_label"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mulish"
+            android:text="We have sent you an SMS with the code to ###-####-####"
+            android:gravity="center"
+            android:textColor="@color/font_active"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/login_otp_code_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:padding="30dp">
+
+            <EditText
+                android:id="@+id/login_otp_code_input"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/neutral_background"
+                android:fontFamily="@font/mulish"
+                android:hint="Code"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:textFontWeight="500"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_otp_resend_code_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Resend Code"
+            android:textColor="@color/button_not_pressed"
+            android:fontFamily="@font/mulish"
+            android:textSize="16sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_otp_continue_button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/button_not_pressed"
+        android:text="Continue"
+        android:fontFamily="@font/mulish"
+        android:textSize="16sp"
+        android:paddingVertical="10dp"
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>
