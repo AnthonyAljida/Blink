@@ -10,8 +10,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Blink"
+        android:theme="@style/Theme.BlinkProject"
         tools:targetApi="31">
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchUserActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

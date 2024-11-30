@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "edu.oakland.blink"
+    namespace = "edu.oakland.blinkproject"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "edu.oakland.blink"
-        minSdk = 34
+        applicationId = "edu.oakland.blinkproject"
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -26,8 +26,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 
