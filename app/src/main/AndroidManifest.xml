@@ -21,6 +21,7 @@
         <activity
             android:name=".LoginPhoneNumberActivity"
             android:exported="false" />
+        <activity android:name=".SearchUserActivity" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">

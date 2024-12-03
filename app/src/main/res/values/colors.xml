@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="my_primary">#4527A0</color>
+    <color name="off_white">#FAFAFA</color>
+    <color name="light_gray">#C3C3C3</color>
 
     <color name="button_pressed">#001A83</color>
     <color name="button_not_pressed">#002DE3</color>

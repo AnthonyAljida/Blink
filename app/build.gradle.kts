@@ -47,6 +47,11 @@ dependencies {
     implementation(libs.ccp)
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
     implementation("com.google.firebase:firebase-auth")
+    implementation("com.firebaseui:firebase-ui-firestore:8.0.2")
+    implementation("com.firebaseui:firebase-ui-firestore:8.0.2")
+    implementation("com.firebaseui:firebase-ui-storage:8.0.2")
+
+
 //    implementation("com.github.Dhaval2404:ImagePicker:2.1")
 
 }
