@@ -31,7 +31,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/mulish"
-            android:text="We have sent you an SMS with the code to ###-####-####"
+            android:text="We have sent you an SMS"
             android:gravity="center"
             android:textColor="@color/font_active"
             android:textSize="14sp"
@@ -59,16 +59,16 @@
                 android:textSize="14sp" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/login_otp_resend_code_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:text="Resend Code"
-            android:textColor="@color/button_not_pressed"
-            android:fontFamily="@font/mulish"
-            android:textSize="16sp"
-            android:gravity="center" />
+        <!--        <Button-->
+        <!--            android:id="@+id/login_otp_resend_code_button"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@android:color/transparent"-->
+        <!--            android:text="Resend Code"-->
+        <!--            android:textColor="@color/button_not_pressed"-->
+        <!--            android:fontFamily="@font/mulish"-->
+        <!--            android:textSize="16sp"-->
+        <!--            android:gravity="center" />-->
     </LinearLayout>
 
     <Button

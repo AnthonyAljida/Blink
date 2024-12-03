@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458405985124",
+    "project_id": "blink-26959",
+    "storage_bucket": "blink-26959.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458405985124:android:b14d31efdaa987b2b7d871",
+        "android_client_info": {
+          "package_name": "edu.oakland.blink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM5W6LOdjzHOiT0ljXnatPzdjYjKHamE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458405985124:android:ec1da68faaac70fdb7d871",
+        "android_client_info": {
+          "package_name": "edu.oakland.blinkproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM5W6LOdjzHOiT0ljXnatPzdjYjKHamE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
